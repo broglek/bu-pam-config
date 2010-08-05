@@ -1,0 +1,5 @@
+bu-pam-config
+-------------
+
+Configuration package for pam to allow authenication via kerberos realms,
+specifically the Boston University kerberos realm.
