@@ -1,0 +1,3 @@
+debian/common-auth.bu /etc/pam.d
+debian/common-account.bu /etc/pam.d
+debian/common-session.bu /etc/pam.d

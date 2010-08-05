@@ -1,0 +1,7 @@
+bu-pam-config (0.01) unstable; urgency=low
+
+  * First version
+  * Places config files for authentication via kerberos pam modules
+
+ -- Kyle Brogle <broglek@bu.edu>  Thu, 05 Aug 2010 16:17:45 -0400
+

@@ -1,0 +1,15 @@
+Source: bu-pam-config
+Section: utils
+Priority: extra
+Maintainer: Kyle Brogle <broglek@bu.edu>
+Build-Depends: cdbs, debhelper (>= 7.4.15ubuntu1), config-package-dev (>= 4.5~)
+Standards-Version: 3.8.4
+
+Package: bu-pam-config
+Architecture: all
+Depends: bu-kerberos-config
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: pam configuration for Boston University
+ This package uses config-package-dev to backup current pam config and
+ installs configuration files for Boston University.	     

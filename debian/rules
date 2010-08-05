@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+DEB_DIVERT_EXTENSION = .bu
+DEB_DIVERT_FILES_bu-pam-config += \
+	/etc/pam.d/common-auth.bu
+	/etc/pam.d/common-account.bu
+	/etc/pam.d/common-session.bu
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/config-package.mk
